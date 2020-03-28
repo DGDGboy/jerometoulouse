@@ -1,0 +1,290 @@
+body
+{
+    background-color: silver;
+    background-attachment: fixed;
+}
+#bloc_page
+{
+    width: 1270px;
+    margin: auto;
+}
+#MENU
+{
+    width: auto;
+    margin: auto;
+    clear: left;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+@font-face 
+{
+    font-family: 'Andrea';
+    src: url('font/Andrea.ttf');
+}
+@font-face
+{
+    font-family: 'roboto';
+    src: url('font/roboto/Roboto-Light.ttf')
+}
+@font-face
+{
+    font-family: 'roboto cond';
+    src: url('font/roboto/Roboto-Condensed.ttf');
+}
+#top
+{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('fond3.jpg');
+    background-attachment: fixed;
+}
+h1
+{
+    color: white;
+    font-family: 'Andrea';
+    font-size: 4em;
+    text-align: center;
+}
+#pic
+{
+    display:flex ;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2
+{
+    color: gray;
+    font-family: 'roboto cond';
+    font-size: 2em;
+    text-align: right;
+    padding-top: 90px; /* mage intérieur */
+    margin-left: 55px ; /* marge ext */
+}
+h5
+{
+    color: white;
+    font-family: 'roboto cond';
+    font-size: 1.5em;
+    text-align: right;
+    padding-top: 1px; /* mage intérieur */
+    margin-left: 55px ; /* marge ext */
+}
+#presentation
+{
+    display: flex;
+    justify-content: center;
+    width: 650px;
+    margin: auto;
+}
+p
+{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 17px;
+    text-align: center;
+
+}
+.flottant
+{
+    float: right;
+    padding: 1px;
+}
+#conteneur1
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur2
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}#conteneur3
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur4
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur5
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur6
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur7
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur8
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur9
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur10
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur11
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur12
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+#conteneur13
+{
+    display: flex;
+    border: 2px solid gray;
+    overflow: auto;
+
+}
+h3
+{
+    clear: right;
+    font-family: 'Roboto';
+    border-top: 2px gray solid;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+}
+h4
+{
+    clear: right;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;  
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav li
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a
+{
+    display: flex;
+    color: white;
+    font-family: 'roboto';
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: rgb(66, 65, 65);
+    border-bottom: 3px solid gray;
+}
+
+#retour1
+{
+    display: flex;
+    justify-content: center;
+    clear: right;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px; 
+}
+#retour2
+{
+    display: flex;
+    justify-content: center;
+    clear: right;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px; 
+}
+#retour3
+{
+    display: flex;
+    justify-content: center;
+    clear: right;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px; 
+}
+
+@media all and (max-width: 1200px)
+{
+    #bloc_page
+    {
+        width: auto;
+    } 
+}
+@media all and (max-width: 830px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    #top2
+    {
+        display: none;
+    }
+    #JT
+    {
+        display: none;
+    }
+    #presentation
+    {
+        width: auto;
+    }
+    nav a
+    {
+        font-size: 15px;
+        width: auto;
+    }
+}
+
