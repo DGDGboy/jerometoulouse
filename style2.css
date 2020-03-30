@@ -1,11 +1,12 @@
 body
 {
-    background-color: silver;
+    background-image: url('fond3.jpg');
     background-attachment: fixed;
+    
 }
 #bloc_page
 {
-    width: 1270px;
+    width: 1275px;
     margin: auto;
 }
 #MENU
@@ -38,8 +39,9 @@ body
 {
     display: flex;
     justify-content: space-around;
-    background-image: url('fond3.jpg');
+    background-color: rgb(247, 176, 34);
     background-attachment: fixed;
+    padding: 20px;
 }
 h1
 {
@@ -57,7 +59,7 @@ h1
 }
 h2
 {
-    color: gray;
+    color: rgb(0, 0, 0);
     font-family: 'roboto cond';
     font-size: 2em;
     text-align: right;
@@ -70,7 +72,7 @@ h5
     font-family: 'roboto cond';
     font-size: 1.5em;
     text-align: right;
-    padding-top: 1px; /* mage intérieur */
+    margin-top: 1px; /* mage intérieur */
     margin-left: 55px ; /* marge ext */
 }
 #presentation
@@ -85,18 +87,17 @@ p
     font-family: 'Helvetica', sans-serif;
     font-size: 17px;
     text-align: center;
+    color: rgb(247, 176, 34);
+
 
 }
-.flottant
-{
-    float: right;
-    padding: 1px;
-}
+
 #conteneur1
 {
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur2
@@ -104,12 +105,14 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }#conteneur3
 {
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur4
@@ -117,6 +120,7 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur5
@@ -124,6 +128,7 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur6
@@ -131,6 +136,7 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur7
@@ -138,6 +144,7 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur8
@@ -145,6 +152,7 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur9
@@ -152,6 +160,7 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur10
@@ -159,6 +168,7 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur11
@@ -166,6 +176,7 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur12
@@ -173,6 +184,7 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 #conteneur13
@@ -180,21 +192,24 @@ p
     display: flex;
     border: 2px solid gray;
     overflow: auto;
+    width: 1270px;
 
 }
 h3
 {
     clear: right;
-    font-family: 'Roboto';
-    border-top: 2px gray solid;
+    font-family: 'Andrea';
+    color: white;
+    border-top: solid 2px rgb(247, 176, 34);
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     padding: 20px;
 }
 h4
 {
     clear: right;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, 'Helvetica', sans-serif;
+    color: rgb(247, 176, 34);
     text-align: center;
     font-size: 1em;
     padding: 5px;  
@@ -221,7 +236,7 @@ nav a
 }
 nav a:hover
 {
-    color: rgb(66, 65, 65);
+    color: rgb(247, 176, 34);
     border-bottom: 3px solid gray;
 }
 
@@ -255,7 +270,12 @@ nav a:hover
     font-size: 1em;
     padding: 5px; 
 }
-
+#copyright
+{
+    display: flex;
+    font-family: Arial, 'Helvetica', sans-serif;
+    color: rgb(247, 176, 34);
+}
 @media all and (max-width: 1200px)
 {
     #bloc_page
