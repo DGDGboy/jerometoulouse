@@ -6,7 +6,7 @@ body
 }
 #bloc_page
 {
-    width: 1275px;
+    width: auto;
     margin: auto;
 }
 @font-face 
@@ -27,6 +27,7 @@ body
 #top
 {
     display: flex;
+    width: auto;
     justify-content: space-around;
     background-color: rgb(247, 176, 34);
     background-attachment: fixed;
@@ -273,7 +274,7 @@ nav a:hover
     font-family: Arial, 'Helvetica', sans-serif;
     color: rgb(247, 176, 34);
 }
-@media all and (max-width: 1200px)
+@media all and (max-width: 1500px)
 {
     #bloc_page
     {
@@ -304,6 +305,7 @@ nav a:hover
         width: auto;
     }
 }
+
 
 
 
