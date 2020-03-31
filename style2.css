@@ -284,6 +284,7 @@ nav a:hover
     #body
     {
         background-image: url('fond3.jpg');
+        background-attachment: fixed;
         width: auto;
     }
     
@@ -311,8 +312,13 @@ nav a:hover
         font-size: 15px;
         width: auto;
     }
+    #body
+    {
+        background-image: url('fond3.jpg');
+        background-attachment: fixed;
+        width: auto;
+    }
 }
-
 
 
 
