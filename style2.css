@@ -83,108 +83,125 @@ p
 
 
 }
-
+.flottant
+{
+    float: right;
+    padding: 2px;
+}
 #conteneur1
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 #conteneur2
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }#conteneur3
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 #conteneur4
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 #conteneur5
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 #conteneur6
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;;
 
 }
 #conteneur7
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 #conteneur8
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 #conteneur9
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 #conteneur10
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 #conteneur11
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 #conteneur12
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 #conteneur13
 {
     display: flex;
-    border: 2px solid gray;
+    justify-content: space-between;
+    border: 2px solid rgb(247, 176, 34);
     overflow: auto;
-    width: 1270px;
+    width: auto;
 
 }
 h3
@@ -222,12 +239,13 @@ nav ul
 }
 nav li
 {
-    display:
+    display:flex;
+    justify-content: space-around;
 }
 nav a
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     color: white;
     font-family: 'roboto';
     font-size: 20px;
@@ -319,6 +337,7 @@ nav a:hover
         width: auto;
     }
 }
+
 
 
 
