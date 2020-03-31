@@ -1,7 +1,7 @@
 body
 {
     background-image: url('fond3.jpg');
-    background-attachment: auto;
+    background-attachment: fixed;
     width: auto;
     
 }
