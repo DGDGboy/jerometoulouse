@@ -2,6 +2,7 @@ body
 {
     background-image: url('fond3.jpg');
     background-attachment: auto;
+    width: auto;
     
 }
 #bloc_page
@@ -279,7 +280,13 @@ nav a:hover
     #bloc_page
     {
         width: auto;
-    } 
+    }
+    #body
+    {
+        background-image: url('fond3.jpg');
+        width: auto;
+    }
+    
 }
 @media all and (max-width: 830px)
 {
@@ -305,8 +312,6 @@ nav a:hover
         width: auto;
     }
 }
-
-
 
 
 
