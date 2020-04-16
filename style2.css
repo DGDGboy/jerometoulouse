@@ -3,7 +3,7 @@ body
     background-image: url('fond3.jpg');
     background-attachment: fixed;
     width: auto;
-    margin: 0;
+    margin: 0px;
        
 }
 #bloc_page
@@ -34,6 +34,7 @@ body
     background-color: rgb(247, 176, 34);
     background-attachment: fixed;
     padding: 20px;
+    margin: 0px;
 }
 h1
 {
