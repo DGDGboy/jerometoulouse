@@ -10,7 +10,7 @@ function abracadabra() {
             + nom
             + " ! Cela fait déjà "
             + age
-            + " ans que tu fais rayonner notre contrée !");
+            + " ans que tu fais rayonner notre contrée ! Bienvenue !!!");
 
 }
 
