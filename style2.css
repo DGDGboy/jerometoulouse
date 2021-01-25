@@ -11,6 +11,12 @@ a:-webkit-any-link
     text-decoration: none;
     color: white;
 }
+a:-webkit-any-link:hover
+{
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
 #bloc_page
 {
     width: auto;
