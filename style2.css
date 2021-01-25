@@ -6,6 +6,10 @@ body
     margin: 0px;
        
 }
+.sites{
+    text-decoration: none;
+    color: white;
+}
 #bloc_page
 {
     width: auto;
