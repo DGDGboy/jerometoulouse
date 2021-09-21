@@ -101,114 +101,7 @@ p
     float: right;
     padding: 2px;
 }
-#conteneur1
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}
-#conteneur2
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}#conteneur3
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}
-#conteneur4
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}
-#conteneur5
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}
-#conteneur6
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;;
-
-}
-#conteneur7
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}
-#conteneur8
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}
-#conteneur9
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}
-#conteneur10
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}
-#conteneur11
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}
-#conteneur12
-{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid rgb(247, 176, 34);
-    overflow: auto;
-    width: auto;
-
-}
-#conteneur13
+#conteneur1, #conteneur2, #conteneur3; #conteneur4, #conteneur5, #conteneur6, #conteneur7, #conteneur8, #conteneur9, #conteneur10, #conteneur11, #conteneur12, #conteneur13
 {
     display: flex;
     justify-content: space-between;
@@ -270,27 +163,7 @@ nav a:hover
     border-bottom: 3px solid gray;
 }
 
-#retour1
-{
-    display: flex;
-    justify-content: center;
-    clear: right;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: 1em;
-    padding: 5px; 
-}
-#retour2
-{
-    display: flex;
-    justify-content: center;
-    clear: right;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: 1em;
-    padding: 5px; 
-}
-#retour3
+#retour1, #retour2, #retour3
 {
     display: flex;
     justify-content: center;
