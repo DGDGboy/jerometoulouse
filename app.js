@@ -7,7 +7,7 @@ window.onscroll = function () {
     }
     else {
         document.getElementById("retour").style.background = "none";
-        document.getElementById("up").style.color = "none";
+        document.getElementById("up").style.color = "transparent";
     }
 
 
