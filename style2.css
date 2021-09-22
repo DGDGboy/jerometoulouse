@@ -101,7 +101,7 @@ p
     float: right;
     padding: 2px;
 }
-#conteneur1, #conteneur2, #conteneur3, #conteneur4, #conteneur5, #conteneur6, #conteneur7, #conteneur8, #conteneur9, #conteneur10, #conteneur11, #conteneur12, #conteneur13
+.conteneur
 {
     display: flex;
     justify-content: space-between;
