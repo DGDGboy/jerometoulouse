@@ -2,7 +2,7 @@
 window.onscroll = function () {
 
     if (document.documentElement.scrollTop > 99) {
-        document.getElementById("retour").style.background = rgb(247, 176, 34);
+        document.getElementById("retour").style.background = "red";
         document.getElementsByClassName("top").style.color = "white";
     }
     else {
