@@ -1,7 +1,7 @@
 
 window.onscroll = function () {
 
-    if (document.documentElement.scrollTop < 100) {
+    if (document.documentElement.scrollTop > 100) {
         document.getElementById("retour").style.background = "transparent";
         document.getElementsByClassName("top").style.color = "transparent";
     }
