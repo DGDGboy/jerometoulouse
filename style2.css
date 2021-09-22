@@ -167,6 +167,8 @@ nav a:hover
 .retour
 {
     display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     right: 50px;
     bottom: 68px;
