@@ -164,8 +164,9 @@ nav a:hover
     border-bottom: 3px solid gray;
 }
 
-.retour a
+.retour
 {
+    display: flex;
     position: fixed;
     right: 50px;
     bottom: 68px;
