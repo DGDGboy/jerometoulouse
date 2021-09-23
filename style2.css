@@ -99,7 +99,7 @@ p
 .flottant
 {
     float: right;
-    padding: 2px;
+    padding: 0px;
     transform: scaleX(0.990);
 }
 
