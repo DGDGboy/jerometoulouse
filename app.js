@@ -13,7 +13,7 @@ window.onscroll = function () {
 
 }
 $(function(){
-    $("#up").click(function(){
+    $("#retour").click(function(){
         $("html, body").animate({scrollTop: 0},"slow");
     });
 });
