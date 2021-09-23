@@ -103,7 +103,7 @@ p
 }
 
    
-.flottant img:hover {
+.flottant:hover {
     transform: scale(1.1);
 }
 
