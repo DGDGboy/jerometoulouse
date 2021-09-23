@@ -108,12 +108,11 @@ p
     border: 2px solid rgb(247, 176, 34);
     overflow: auto;
     width: auto;
-    
-    img:hover {
-        transform: scale(1.1);
-    }
-
+}   
+.conteneur img:hover {
+    transform: scale(1.1);
 }
+
 h3
 {
     clear: right;
