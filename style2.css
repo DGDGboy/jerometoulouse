@@ -104,7 +104,8 @@ p
 
    
 .flottant:hover {
-    transform: scale(1.01, 1s);
+    transform: scale(1.01);
+    transition: 1s;
 }
 
 .conteneur
