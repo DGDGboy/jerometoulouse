@@ -100,12 +100,12 @@ p
 {
     float: right;
     padding: 2px;
-    transform: scaleX(-1.005);
+    transform: scaleX(0.990);
 }
 
    
 .flottant:hover {
-    transform: scaleX(1.005);
+    transform: scaleX(1.00);
     transition: 330ms;
 }
 
