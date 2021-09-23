@@ -186,6 +186,14 @@ nav a:hover
     height: 50px;
     border-radius: 50%;  
 }
+
+#retour:hover {
+    background: transparent;
+    border: 2px solid rgb(247, 176, 34);
+}
+#up:hover {
+    color: rgb(247, 176, 34);
+}
     
 @keyframes slideup {
   0% {
