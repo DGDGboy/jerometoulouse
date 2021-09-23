@@ -178,11 +178,14 @@ nav a:hover
 }
     
 @keyframes slideup {
-  from {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
     transform: translateY(5px);
   }
 
-  to {
+  100% {
     transform: translateY(0);
   }
 }
