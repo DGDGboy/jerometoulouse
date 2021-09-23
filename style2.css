@@ -179,7 +179,7 @@ nav a:hover
     
 @keyframes slideup {
   from {
-    transform: translateY(15px);
+    transform: translateY(5px);
   }
 
   to {
@@ -187,7 +187,7 @@ nav a:hover
   }
 }
 .retour {
-    animation: slideup 3s;
+    animation: slideup 2s;
     animation-iteration-count: 1000;
 }
 .top {
