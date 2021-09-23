@@ -109,7 +109,7 @@ p
     overflow: auto;
     width: auto;
     
-    img {
+    img:hover {
         transform: scale(1.1);
     }
 
