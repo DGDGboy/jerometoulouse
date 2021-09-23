@@ -14,6 +14,6 @@ window.onscroll = function () {
 }
 $(function(){
     $("#up").click(function(){
-        $("html, body").animate({scrollTop: 0},"slow");
+        $("html, body").animate({scrollDown: 0},"slow");
     });
 });
