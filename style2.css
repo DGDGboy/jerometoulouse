@@ -177,9 +177,17 @@ nav a:hover
     border-radius: 50%;  
 }
     
- 
-.retour {
+@keyframes slideup {
+  from {
+    transform: translateY(15px);
+  }
 
+  to {
+    transform: translateY(0);
+  }
+}
+.retour {
+    animation: slideup 3s;
 }
 .top {
     
