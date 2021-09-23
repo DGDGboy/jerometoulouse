@@ -96,7 +96,7 @@ p
 
 
 }
-.flottant
+.conteneur .flottant
 {
     float: right;
     padding: 0px;
@@ -105,7 +105,7 @@ p
 }
 
    
-.flottant:hover {
+.conteneur .flottant:hover {
     transform: scaleX(1.00);
     transition: 330ms;
     opacity: 1;
@@ -260,6 +260,9 @@ nav a:hover
     h4
     {
         font-size: 12px;
+    }
+    .conteneur .flottant {
+        opacity: 1;
     }
 }
 
