@@ -179,8 +179,20 @@ nav a:hover
     
 }
 
+@keyframes up_anim{
+    0%{
+    transform: translateY(5vh);
+    opacity: 1;
+    }
+}
+    
+ 
 .retour {
-    animation: retour 3.5s linear infinite;
+    animation-name: up_anim;
+    animation-duration: 2000ms;
+    animation-delay: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1
 }
 .top {
     
