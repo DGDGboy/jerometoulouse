@@ -262,6 +262,8 @@ nav a:hover
     }
     .conteneur .flottant {
         opacity: 1 !important;
+        padding: 3px;
+        
     }
 }
 
