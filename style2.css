@@ -11,6 +11,12 @@ scroll-container {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 
 a:-webkit-any-link
 {
