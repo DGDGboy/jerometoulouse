@@ -96,20 +96,6 @@ p
 
 
 }
-.conteneur .flottant
-{
-    float: right;
-    padding: 0px;
-    transform: scaleX(0.990);
-    opacity: 0.6;
-}
-
-   
-.conteneur .flottant:hover {
-    transform: scaleX(1.00);
-    transition: 330ms;
-    opacity: 1;
-}
 
 .conteneur
 {
@@ -226,7 +212,20 @@ nav a:hover
         background-attachment: fixed;
         width: auto;
     }
-    
+    .conteneur .flottant
+    {
+        float: right;
+        padding: 0px;
+        transform: scaleX(0.990);
+        opacity: 0.6;
+    }
+
+
+    .conteneur .flottant:hover {
+        transform: scaleX(1.00);
+        transition: 330ms;
+        opacity: 1;
+    }
 }
 @media all and (max-width: 830px)
 {
@@ -262,7 +261,7 @@ nav a:hover
         font-size: 12px;
     }
     .conteneur .flottant {
-        opacity: 1;
+        opacity: 1 !important;
     }
 }
 
