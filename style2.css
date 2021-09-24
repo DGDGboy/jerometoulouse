@@ -4,6 +4,8 @@ body
     background-attachment: fixed;
     width: auto;
     margin: 0px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
        
 }
 
