@@ -3,10 +3,7 @@ body
     background-image: url('fond3.jpg');
     background-attachment: fixed;
     width: auto;
-    margin: 0px;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-       
+    margin: 0px;    
 }
 
 scroll-container {
