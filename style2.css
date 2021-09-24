@@ -200,7 +200,7 @@ nav a:hover
     justify-content: end;
     margin: 20px 20px;
 }
-@media all and (max-width: 3072px)
+@media all and (min-width: 1024px)
 {
     #bloc_page
     {
@@ -227,7 +227,7 @@ nav a:hover
         opacity: 1;
     }
 }
-@media all and (max-width: 830px)
+@media all and (max-width: 768px)
 {
     #bloc_page
     {
