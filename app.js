@@ -1,3 +1,6 @@
+alert("Bonjour et bienvenue, n'hesite pas à scroller vers la droite sur les photos pour faire défiler le carrousel :)"
+     );
+
 
 window.onscroll = function () {
 
