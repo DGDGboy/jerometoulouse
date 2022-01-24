@@ -1,7 +1,3 @@
-alert("Bonjour et bienvenue, n'hesite pas à scroller vers la droite sur les photos pour faire défiler le carrousel :)"
-     );
-
-
 window.onscroll = function () {
 
     if (document.documentElement.scrollTop > 99) {
@@ -20,3 +16,6 @@ $(function(){
         $("html, body").animate({scrollTop: 0},"slow");
     });
 });
+
+alert("Bonjour et bienvenue, n'hesite pas à scroller vers la droite sur les photos pour faire défiler le carrousel :)"
+     );
