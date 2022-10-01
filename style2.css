@@ -206,7 +206,7 @@ nav a
 nav a:hover
 {
     color: rgb(0, 0, 0);
-    border-bottom: 3px solid gray;
+    opacity: 0.5;
 }
 
 #retour
