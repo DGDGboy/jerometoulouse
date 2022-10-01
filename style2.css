@@ -231,6 +231,13 @@ nav a:hover
     border:none;
 }
 
+#retour a:hover
+{
+    border:none;
+    opacity: 0.6;
+}
+
+
 @keyframes slideup {
   0% {
     transform: translateY(0px);
