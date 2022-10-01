@@ -161,6 +161,12 @@ scroll-container h3
     margin-bottom: 50px;
     padding-top: 50px;
 }
+
+scroll-container h4
+{
+    color:#062C42;
+}
+
 h4
 {
     clear: right;
