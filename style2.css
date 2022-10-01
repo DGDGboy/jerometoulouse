@@ -84,14 +84,12 @@ h1
 
 #prez{
     display:flex;
+    align-items: center;
 }
 
 #pic
 {
-    display:flex ;
-    justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-right: 40px;
 }
 h2
 {
