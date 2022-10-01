@@ -190,6 +190,12 @@ nav a
     font-family: 'roboto';
     font-size: 20px;
     text-decoration: none;
+    border: 1px solid #19587d;
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-weight: lighter;
+    transition: opacity 0.3s ease;
+    
 }
 nav a:hover
 {
