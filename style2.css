@@ -147,8 +147,6 @@ p
     justify-content: space-between;
     overflow: auto;
     width: auto;
-    border: solid #19587d;
-    border-radius: 10px;
 }
 
 scroll-container h3
@@ -290,7 +288,7 @@ nav a:hover
         float: right;
         padding: 0px;
         transform: scaleX(0.990);
-        opacity: 0.8;
+        border: solid #19587d;
     }
 
 
