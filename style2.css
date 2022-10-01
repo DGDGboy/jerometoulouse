@@ -286,7 +286,7 @@ nav a:hover
     .conteneur .flottant
     {
         float: right;
-        padding: 0px;
+        margin: 5px;
         transform: scaleX(0.990);
         border: solid #19587d;
     }
