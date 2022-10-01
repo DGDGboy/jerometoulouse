@@ -358,4 +358,6 @@ footer #reseaux a img
 footer #reseaux a img:hover
 {
     opacity: 0.7;
+    transform: scale3d(1.02, 1.02, 1.02);
+    transition: 330ms;
 }
