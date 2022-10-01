@@ -350,3 +350,7 @@ footer #reseaux a img
     width: 4rem;
 }
 
+footer #reseaux a img:hover
+{
+    opacity: 0.7;
+}
