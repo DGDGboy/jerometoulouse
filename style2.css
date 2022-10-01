@@ -347,4 +347,8 @@ footer {
     padding-top:30;
 }
 
+footer #reseaux a img
+{
+    width: 4rem;
+}
 
