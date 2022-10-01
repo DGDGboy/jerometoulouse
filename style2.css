@@ -59,7 +59,7 @@ a:-webkit-any-link:hover
     justify-content: space-around;
     /*background-color: rgb(247, 176, 34);*/
     /*background-attachment: fixed;*/
-    padding: 20px;
+    padding: 70px;
     margin: 0px;
 }
 #top2
@@ -71,12 +71,13 @@ a:-webkit-any-link:hover
 
 #top2 img 
 {
-    width: 70%;
+    width: 50%;
 }
 
 #top2 h2
 {
     margin: 0;
+    margin-top: 15px;
 }
 
 h1
