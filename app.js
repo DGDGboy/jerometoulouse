@@ -17,5 +17,5 @@ $(function(){
     });
 });
 
-alert("Bonjour et bienvenue, n'hesite pas à scroller vers la droite sur les photos pour faire défiler le carrousel :)"
+alert("Bonjour et bienvenue, n'hesite pas à slider vers la droite sur les photos pour faire défiler le carrousel :)"
      );
