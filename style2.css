@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('fond3.jpg');
+    background-image: url('fond4.png');
     background-attachment: fixed;
     width: auto;
     margin: 0px;    
@@ -56,14 +56,14 @@ a:-webkit-any-link:hover
     display: flex;
     width: auto;
     justify-content: space-around;
-    background-color: rgb(247, 176, 34);
-    background-attachment: fixed;
+    /*background-color: rgb(247, 176, 34);*/
+    /*background-attachment: fixed;*/
     padding: 20px;
     margin: 0px;
 }
 h1
 {
-    color: white;
+    color: #19587d;
     font-family: 'Andrea';
     font-size: 4em;
     text-align: center;
@@ -86,7 +86,7 @@ h2
 }
 h5
 {
-    color: white;
+    color: #19587d;
     font-family: 'roboto cond';
     font-size: 1.5em;
     text-align: right;
@@ -124,7 +124,7 @@ h3
 {
     clear: right;
     font-family: 'Andrea';
-    color: white;
+    color: #19587d;
     text-align: center;
     font-size: 3.7em;
     margin-top: -0.1px;
@@ -143,9 +143,9 @@ h4
 #MENU
 {
     width: auto;
-    background-color:rgb(247, 176, 34);
+    /*background-color:rgb(247, 176, 34);*/
     padding: 5px;
-    border-top: solid 5px black;
+    /*border-top: solid 5px black;*/
 }
 nav ul
 {
@@ -163,7 +163,7 @@ nav a
 {
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: #19587d;
     font-family: 'roboto';
     font-size: 20px;
     text-decoration: none;
