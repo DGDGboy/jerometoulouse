@@ -2,6 +2,7 @@ body
 {
     background-image: url('fond4.png');
     background-attachment: fixed;
+    background-size: contain;
     width: auto;
     margin: 0px;    
 }
