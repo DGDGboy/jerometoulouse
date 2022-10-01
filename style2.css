@@ -145,9 +145,10 @@ p
 {
     display: flex;
     justify-content: space-between;
-    border: 2px solid #19587D);
     overflow: auto;
     width: auto;
+    border: solid #19587d;
+    border-radius: 10px;
 }
 
 scroll-container h3
