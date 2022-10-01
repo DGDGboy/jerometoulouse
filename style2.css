@@ -348,6 +348,7 @@ footer {
 footer #reseaux a img
 {
     width: 4rem;
+    margin: 1rem;
 }
 
 footer #reseaux a img:hover
