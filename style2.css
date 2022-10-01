@@ -271,6 +271,7 @@ nav a:hover
     color: #19587D;
     justify-content: end;
     margin: 20px 20px;
+    font-size: 13px;
 }
 @media all and (min-width: 1024px)
 {
@@ -342,7 +343,8 @@ nav a:hover
 footer {
     height: 90px;
     border-top: solid 3px rgb(247, 176, 34);
-    margin-top: 80px;
+    margin-top: 100px;
+    padding-top:30;
 }
 
 
