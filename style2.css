@@ -7,7 +7,7 @@ body
 }
 
 scroll-container {
-  display: block;
+  display: ;
   width: auto;
   height: 100vh;
   overflow-y: scroll;
