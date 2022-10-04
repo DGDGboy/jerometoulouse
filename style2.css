@@ -305,6 +305,11 @@ nav a:hover
 }
 @media all and all screen and (min-device-width :360px) and (max-device-width : 1024px)
 {
+    
+    header 
+    {
+        width: auto;
+    }
     #bloc_page
     {
         width: auto;
@@ -334,7 +339,7 @@ nav a:hover
     
     nav a
     {
-        font-size: 15px;
+        font-size: 35px;
         width: auto;
     }
     
@@ -350,7 +355,7 @@ nav a:hover
         display: initial;
         /* justify-content: space-around; */
         margin: 5%;
-        width: 70%;
+        width: 60%;
         margin-right: auto;
         margin-left: auto;
     }
