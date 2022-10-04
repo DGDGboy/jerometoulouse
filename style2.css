@@ -213,8 +213,15 @@ nav a
     font-weight: bold;
     transition: opacity 0.3s ease;
     width: max-content;
-    
 }
+
+#CAT nav a
+{
+    margin-top: 26%;
+    background-color: #19587d;
+    color: white;
+}
+
 nav a:hover
 {
     color: rgb(0, 0, 0);
