@@ -312,6 +312,11 @@ nav a:hover
     {
         display: none;
     }
+    
+    #top2 img {
+        width: 100%;
+    }
+    
     #JT
     {
         display: none;
@@ -325,6 +330,23 @@ nav a:hover
         font-size: 15px;
         width: auto;
     }
+    
+    nav ul
+    {
+        display:flex;
+        flex-direction: colunm;
+    }
+    
+    nav li 
+    {
+        display: initial;
+        /* justify-content: space-around; */
+        margin: 5%;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
     #body
     {
         background-image: url('fond3.jpg');
@@ -339,6 +361,23 @@ nav a:hover
         opacity: 1 !important;
         padding: 3px;
         
+    }
+    #prez
+    {
+        display: initial;
+    }
+    #pic 
+    {
+        margin-right: 33%;
+        margin-left: 25%;
+        margin-bottom: 10%;
+    }
+    .conteneur .flottant
+    {
+        float: right;
+        margin: 1px;
+        transform: scaleX(0.990);
+        border: solid #19587d;
     }
 }
 
