@@ -326,6 +326,12 @@ nav a:hover
     {
         width: auto;
     }
+    
+    #MENU
+    {
+        margin: 0;
+    }
+    
     nav a
     {
         font-size: 15px;
@@ -366,12 +372,13 @@ nav a:hover
     }
     #prez
     {
-        display: initial;
+        display: flex;
+        flex-direction: column;
     }
     #pic 
     {
-        margin-right: 33%;
-        margin-left: 25%;
+        margin-right: 0;
+        margin-left: 0;
         margin-bottom: 10%;
     }
     .conteneur .flottant
