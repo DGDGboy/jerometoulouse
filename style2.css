@@ -312,6 +312,11 @@ nav a:hover
         font-size:30px;
     }
     
+    scroll-container h4
+    {
+        font-size: 35px;
+    }
+    
     header 
     {
         height: auto;
