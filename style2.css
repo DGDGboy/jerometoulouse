@@ -221,6 +221,7 @@ nav a
     margin-top: 26%;
     background-color: #19587d;
     color: white;
+    width: max-content;
 }
 .CTA nav a:hover
 {
