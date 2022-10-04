@@ -294,7 +294,7 @@ nav a:hover
         margin: 5px;
         transform: scaleX(0.990);
         border: solid #19587d;
-        height: max-content;
+        max-height: 500px;
     }
 
 
@@ -379,7 +379,7 @@ nav a:hover
     .conteneur .flottant {
         opacity: 1 !important;
         padding: 3px;
-        height: max-content;
+        max-height: 500px;
     }
     #prez
     {
