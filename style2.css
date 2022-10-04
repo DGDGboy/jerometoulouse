@@ -188,6 +188,11 @@ h4
     /*border-top: solid 5px black;*/
     margin-top: 15vh;
 }
+
+#MENU nav a
+{
+    background-color: white;
+}
 nav ul
 {
     list-style: none;
