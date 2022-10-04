@@ -193,6 +193,11 @@ h4
 {
     background-color: white;
 }
+#MENU nav a:hover
+{
+    background-color: none;
+}
+
 nav ul
 {
     list-style: none;
