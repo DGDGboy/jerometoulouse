@@ -34,7 +34,7 @@ a:-webkit-any-link
 a:-webkit-any-link:hover
 {
     text-decoration: none;
-    color: white;
+    color: #19587d;
     transform: scale3d(1.02, 1.02, 1.02);
     transition: 330ms;
     background-color: #19587d00;
