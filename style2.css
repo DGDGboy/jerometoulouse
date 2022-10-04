@@ -416,7 +416,7 @@ nav a:hover
         float: right;
         margin: 1px;
         transform: scaleX(0.990);
-        border: solid #19587d;
+        border: solid 5px #19587d;
     }
 }
 
