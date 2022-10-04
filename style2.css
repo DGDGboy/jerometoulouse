@@ -36,6 +36,7 @@ a:-webkit-any-link:hover
     color: white;
     transform: scale3d(1.02, 1.02, 1.02);
     transition: 330ms;
+    background-color: #19587d;
 }
 #bloc_page
 {
@@ -232,8 +233,6 @@ nav a
 nav a:hover
 {
     color: rgb(0, 0, 0);
-    background-color: #19587d;
-    color: white;
 }
 
 #retour
