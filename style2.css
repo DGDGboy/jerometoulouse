@@ -29,7 +29,6 @@ a:-webkit-any-link
 {
     text-decoration: none;
     color: #19587d;
-    background-color: white;
 }
 a:-webkit-any-link:hover
 {
