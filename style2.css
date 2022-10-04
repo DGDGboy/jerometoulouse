@@ -303,7 +303,7 @@ nav a:hover
         opacity: 1;
     }
 }
-@media only screen and (max-device-width : 1024px)
+@media all and (min-device-width :360px) and (max-device-width : 1024px)
 {
     #bloc_page
     {
