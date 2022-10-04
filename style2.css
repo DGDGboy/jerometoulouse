@@ -311,7 +311,7 @@ nav a:hover
     }
     #top2
     {
-        display: none;
+        display: flex;
     }
     
     #top2 img {
