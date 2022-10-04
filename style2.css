@@ -336,6 +336,7 @@ nav a:hover
     {
         display:flex;
         flex-direction: colunm;
+        flex-wrap: wrap;
     }
     
     nav li 
