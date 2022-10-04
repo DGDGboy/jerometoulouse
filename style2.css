@@ -29,6 +29,7 @@ a:-webkit-any-link
 {
     text-decoration: none;
     color: #19587d;
+    background-color: white;
 }
 a:-webkit-any-link:hover
 {
@@ -36,7 +37,7 @@ a:-webkit-any-link:hover
     color: white;
     transform: scale3d(1.02, 1.02, 1.02);
     transition: 330ms;
-    background-color: #19587d;
+    background-color: #19587d00;
 }
 #bloc_page
 {
