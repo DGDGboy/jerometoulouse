@@ -331,8 +331,7 @@ nav a:hover
     .sticky 
     {
       position: fixed;
-      top: 0;
-      width: 100%;
+      top: 10;
     }
 
 }
