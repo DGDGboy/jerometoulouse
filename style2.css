@@ -333,7 +333,18 @@ nav a:hover
       position: fixed;
       z-index: 1;
       top: 10px;
-      
+    }
+    
+    .sticky nav a 
+    {
+        background-color: white;
+        border: none;
+        border-radius: 0;
+    }
+    .sticky nav a:hover 
+    {
+        background-color:white;
+        opacity: 0.8;  
     }
 
 }
