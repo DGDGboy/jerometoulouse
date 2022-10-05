@@ -1,19 +1,6 @@
 window.onscroll = function () {
 
-    if (document.documentElement.scrollTop > 99) {
-        document.getElementById("retour").style.background = "#f7b022";
-        document.getElementById("up").style.color = "white";
-    }
-    else {
-        document.getElementById("retour").style.background = "none";
-        document.getElementById("up").style.color = "transparent";
-    }
 
-
-}
-
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
 
     if (document.documentElement.scrollTop > 99) {
         document.getElementById("retour").style.background = "#f7b022";
