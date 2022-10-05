@@ -13,7 +13,7 @@ window.onscroll = function () {
 }
 
 // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {myFunction(), myOtherFunction()};
 
 
 // Get the navbar
@@ -29,6 +29,17 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
+}
+
+function myOtherFunction() {
+            if (document.documentElement.scrollTop > 99) {
+            document.getElementById("retour").style.background = "#f7b022";
+            document.getElementById("up").style.color = "white";
+            }
+            else {
+                document.getElementById("retour").style.background = "none";
+                document.getElementById("up").style.color = "transparent";
+            }
 }
 
 $(function(){
