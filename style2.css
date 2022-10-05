@@ -212,6 +212,7 @@ nav li
 {
     display:flex;
     justify-content: space-around;
+    margin: 5px;
 }
 nav a
 {
