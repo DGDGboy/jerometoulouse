@@ -335,13 +335,13 @@ nav a:hover
       top: 10px;
     }
     
-    .sticky nav a 
+    .sticky li a 
     {
         background-color: white;
         border: none;
         border-radius: 0;
     }
-    .sticky nav a:hover 
+    .sticky li a:hover 
     {
         background-color:white;
         opacity: 0.8;  
