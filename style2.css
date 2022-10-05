@@ -187,6 +187,9 @@ h4
     padding: 5px;
     /*border-top: solid 5px black;*/
     margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #MENU nav a
@@ -332,7 +335,9 @@ nav a:hover
     {
       position: fixed;
       z-index: 1;
-      top: 10px;
+      top: 0px;
+      background-color: white;
+      width: 100%;
     }
     
     .sticky li a 
